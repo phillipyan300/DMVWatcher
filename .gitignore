@@ -37,11 +37,16 @@ ENV/
 .playwright/
 
 # Project specific - Runtime/user files (should NOT be committed)
-status.json          # Last known appointment status (runtime state)
-*.log                # Log files (can get very large)
-config.json          # User's actual config (may contain secrets)
-config.local.json    # Local config overrides
-.env                 # Environment variables with secrets
+# Last known appointment status (runtime state)
+status.json
+# Log files (can get very large)
+*.log
+# User's actual config (may contain secrets)
+config.json
+# Local config overrides
+config.local.json
+# Environment variables with secrets
+.env
 
 # Example/template files (these SHOULD be committed)
 # ✓ config.example.json - committed (template)
