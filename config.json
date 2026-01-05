@@ -1,0 +1,13 @@
+{
+  "targets": ["Mercer, Monmouth, Middlesex"],
+  "monitoring_duration_minutes": 120,
+  "polling_interval_seconds": 300,
+  "max_date": "01/18/2026",
+  "url": "https://telegov.njportal.com/njmvcmobileunit/AppointmentWizard/265",
+  "telegram": {
+    "bot_token": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+    "chat_id": "123456789"
+  }
+}
+
+

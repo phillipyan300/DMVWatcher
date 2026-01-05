@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Playwright
+.playwright/
+
+# Project specific - Runtime/user files (should NOT be committed)
+status.json          # Last known appointment status (runtime state)
+*.log                # Log files (can get very large)
+config.json          # User's actual config (may contain secrets)
+config.local.json    # Local config overrides
+.env                 # Environment variables with secrets
+
+# Example/template files (these SHOULD be committed)
+# ✓ config.example.json - committed (template)
+# ✓ .env.example - committed (template)
+
+# OS
+.DS_Store
+Thumbs.db

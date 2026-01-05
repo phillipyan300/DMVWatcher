@@ -1,0 +1,34 @@
+# Cursor Rules for DMVWatcher
+
+## Documentation Policy
+- **DO NOT** create separate documentation files unless explicitly requested
+- **DO** consolidate all important information into README.md
+- **DO** explain logic and decisions in chat, not in separate docs
+- Only create docs if user explicitly asks for them
+
+## Code Organization
+- Keep code organized in `src/` folder
+- Entry point script stays at root (`dmvwatcher.py`)
+- Config examples stay at root
+
+## Communication
+- Explain logic clearly in chat responses
+- Don't create "explanation" docs - explain here instead
+- Keep README focused on user-facing information only
+
+## Debugging and Problem Solving
+- **ALWAYS search online/documentation FIRST** before guessing or making assumptions
+- When debugging errors:
+  1. Search for the exact error message online
+  2. Check official documentation for the library/framework
+  3. Look for similar issues on Stack Overflow, GitHub, etc.
+  4. Try multiple approaches based on search results
+- **DO NOT** waste time guessing - use web_search tool to find solutions
+- If something doesn't work:
+  1. Search for more specific information
+  2. Try alternative approaches from search results
+  3. Keep iterating until it works
+  4. Don't give up after one failed attempt - be persistent
+- When encountering unfamiliar APIs or libraries, **always** search for official documentation and examples
+- Prefer verified solutions from official sources over guessing
+
