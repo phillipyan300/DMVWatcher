@@ -1,5 +1,5 @@
 {
-  "targets": ["Mercer, Monmouth, Middlesex"],
+  "targets": ["Mercer", "Monmouth", "Middlesex"],
   "monitoring_duration_minutes": 120,
   "polling_interval_seconds": 300,
   "max_date": "01/18/2026",
